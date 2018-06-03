@@ -12,7 +12,7 @@ class MapsComponent extends Component {
             lat: 17.424825,
             lng: 78.379091
         },
-        zoom: 11
+        zoom: 18
     };
 
 
@@ -26,9 +26,9 @@ class MapsComponent extends Component {
                     defaultZoom={this.props.zoom}
                 >
                     <AnyReactComponent
-                        lat={59.955413}
-                        lng={30.337844}
-                        text={'Kreyser Avrora'}
+                        lat={17.424825}
+                        lng={78.379091}
+                        text={'You are here!'}
                     />
                 </GoogleMapReact>
             </div>
